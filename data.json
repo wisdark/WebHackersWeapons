@@ -9,6 +9,16 @@
   "Method": "HTTP",
   "Type": "Discovery"
  },
+ "Aron": {
+  "Data": "| Discovery/HTTP | [Aron](https://github.com/m4ll0k/Aron) | Aron is a GO script for finding hidden GET \u0026 POST parameters | ![](https://img.shields.io/github/stars/m4ll0k/Aron) | ![](https://img.shields.io/github/languages/top/m4ll0k/Aron) |",
+  "Method": "HTTP",
+  "Type": "Discovery"
+ },
+ "Atlas": {
+  "Data": "| Utility/BRIDGE | [Atlas](https://github.com/m4ll0k/Atlas) | Quick SQLMap Tamper Suggester | ![](https://img.shields.io/github/stars/m4ll0k/Atlas) | ![](https://img.shields.io/github/languages/top/m4ll0k/Atlas) |",
+  "Method": "BRIDGE",
+  "Type": "Utility"
+ },
  "BurpSuite": {
   "Data": "| Army-Knife/ALL  | [BurpSuite](https://portswigger.net/burp) |  the BurpSuite project |![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
   "Method": "BURP",
@@ -19,10 +29,25 @@
   "Method": "CSP",
   "Type": "Utility"
  },
+ "CT_subdomains": {
+  "Data": "| Utility/WORD | [CT_subdomains](https://github.com/internetwache/CT_subdomains) | An hourly updated list of subdomains gathered from certificate transparency logs | ![](https://img.shields.io/github/stars/internetwache/CT_subdomains) | ![](https://img.shields.io/github/languages/top/internetwache/CT_subdomains) |",
+  "Method": "WORD",
+  "Type": "Utility"
+ },
+ "Chaos Web": {
+  "Data": "| Discovery/DOMAIN  | [Chaos Web](https://chaos.projectdiscovery.io) |  actively scan and maintain internet-wide assets' data. enhance research and analyse changes around DNS for better insights.|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)",
+  "Method": "DOMAIN",
+  "Type": "Discovery"
+ },
  "Corsy": {
   "Data": "| Scanner/CORS | [Corsy](https://github.com/s0md3v/Corsy) | CORS Misconfiguration Scanner | ![](https://img.shields.io/github/stars/s0md3v/Corsy) | ![](https://img.shields.io/github/languages/top/s0md3v/Corsy) |",
   "Method": "CORS",
   "Type": "Scanner"
+ },
+ "CyberChef": {
+  "Type": "Utility",
+  "Data": "| Utility/TOOLBOX | [CyberChef](https://github.com/gchq/CyberChef) | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis | ![](https://img.shields.io/github/stars/gchq/CyberChef) | ![](https://img.shields.io/github/languages/top/gchq/CyberChef) |",
+  "Method": "TOOLBOX"
  },
  "DNSDumpster": {
   "Data": "| Discovery/DNS  | [DNSDumpster](https://dnsdumpster.com) |  Online dns recon \u0026 research, find \u0026 lookup dns records|![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray) | ![](https://img.shields.io/static/v1?label=\u0026message=it%27s%20not%20github\u0026color=gray)|",
@@ -52,11 +77,6 @@
  "LFISuite": {
   "Data": "| Scanner/LFI | [LFISuite](https://github.com/D35m0nd142/LFISuite) | Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner | ![](https://img.shields.io/github/stars/D35m0nd142/LFISuite) | ![](https://img.shields.io/github/languages/top/D35m0nd142/LFISuite) |",
   "Method": "LFI",
-  "Type": "Scanner"
- },
- "Medusa": {
-  "Data": "| Scanner/FUZZ | [Medusa](https://github.com/pymedusa/Medusa) | Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. | ![](https://img.shields.io/github/stars/pymedusa/Medusa) | ![](https://img.shields.io/github/languages/top/pymedusa/Medusa) |",
-  "Method": "FUZZ",
   "Type": "Scanner"
  },
  "NoSQLMap": {
@@ -180,9 +200,9 @@
   "Type": "Utility"
  },
  "aquatone": {
-  "Type": "Discovery",
   "Data": "| Discovery/ALL | [aquatone](https://github.com/michenriksen/aquatone) | A Tool for Domain Flyovers | ![](https://img.shields.io/github/stars/michenriksen/aquatone) | ![](https://img.shields.io/github/languages/top/michenriksen/aquatone) |",
-  "Method": "ALL"
+  "Method": "ALL",
+  "Type": "Discovery"
  },
  "arachni": {
   "Data": "| Scanner/WVS | [arachni](https://github.com/Arachni/arachni) | Web Application Security Scanner Framework | ![](https://img.shields.io/github/stars/Arachni/arachni) | ![](https://img.shields.io/github/languages/top/Arachni/arachni) |",
@@ -193,6 +213,11 @@
   "Data": "| Discovery/DOMAIN | [assetfinder](https://github.com/tomnomnom/assetfinder) | Find domains and subdomains related to a given domain | ![](https://img.shields.io/github/stars/tomnomnom/assetfinder) | ![](https://img.shields.io/github/languages/top/tomnomnom/assetfinder) |",
   "Method": "DOMAIN",
   "Type": "Discovery"
+ },
+ "axiom": {
+  "Data": "| Utility/PENTEST | [axiom](https://github.com/pry0cc/axiom) | A dynamic infrastructure toolkit for red teamers and bug bounty hunters! | ![](https://img.shields.io/github/stars/pry0cc/axiom) | ![](https://img.shields.io/github/languages/top/pry0cc/axiom) |",
+  "Method": "PENTEST",
+  "Type": "Utility"
  },
  "bountyplz": {
   "Data": "| Utility/TEMPLATE | [bountyplz](https://github.com/fransr/bountyplz) | Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported) | ![](https://img.shields.io/github/stars/fransr/bountyplz) | ![](https://img.shields.io/github/languages/top/fransr/bountyplz) |",
@@ -209,6 +234,11 @@
   "Method": "CRAWL",
   "Type": "Discovery"
  },
+ "chaos-client": {
+  "Data": "| Discovery/DOMAIN | [chaos-client](https://github.com/projectdiscovery/chaos-client) | Go client to communicate with Chaos DNS API. | ![](https://img.shields.io/github/stars/projectdiscovery/chaos-client) | ![](https://img.shields.io/github/languages/top/projectdiscovery/chaos-client) |",
+  "Method": "DOMAIN",
+  "Type": "Discovery"
+ },
  "dalfox": {
   "Data": "| Scanner/XSS | [dalfox](https://github.com/hahwul/dalfox) | 🦊 DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang | ![](https://img.shields.io/github/stars/hahwul/dalfox) | ![](https://img.shields.io/github/languages/top/hahwul/dalfox) |",
   "Method": "XSS",
@@ -219,10 +249,20 @@
   "Method": "FUZZ",
   "Type": "Discovery"
  },
+ "dnsobserver": {
+  "Data": "| Utility/CALLBACK | [dnsobserver](https://github.com/allyomalley/dnsobserver) | A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities. It monitors a pentester's server for out-of-band DNS interactions and sends lookup notifications via Slack. | ![](https://img.shields.io/github/stars/allyomalley/dnsobserver) | ![](https://img.shields.io/github/languages/top/allyomalley/dnsobserver) |",
+  "Method": "CALLBACK",
+  "Type": "Utility"
+ },
  "dnsprobe": {
   "Data": "| Discovery/DNS | [dnsprobe](https://github.com/projectdiscovery/dnsprobe) | DNSProb (beta) is a tool built on top of retryabledns that allows you to perform multiple dns queries of your choice with a list of user supplied resolvers. | ![](https://img.shields.io/github/stars/projectdiscovery/dnsprobe) | ![](https://img.shields.io/github/languages/top/projectdiscovery/dnsprobe) |",
   "Method": "DNS",
   "Type": "Discovery"
+ },
+ "domdig": {
+  "Data": "| Scanner/XSS | [domdig](https://github.com/fcavallarin/domdig) | DOM XSS scanner for Single Page Applications | ![](https://img.shields.io/github/stars/fcavallarin/domdig) | ![](https://img.shields.io/github/languages/top/fcavallarin/domdig) |",
+  "Method": "XSS",
+  "Type": "Scanner"
  },
  "dotdotpwn": {
   "Data": "| Scanner/LFI | [dotdotpwn](https://github.com/wireghoul/dotdotpwn) | DotDotPwn - The Directory Traversal Fuzzer | ![](https://img.shields.io/github/stars/wireghoul/dotdotpwn) | ![](https://img.shields.io/github/languages/top/wireghoul/dotdotpwn) |",
@@ -237,6 +277,11 @@
  "ffuf": {
   "Data": "| Scanner/FUZZ | [ffuf](https://github.com/ffuf/ffuf) | Fast web fuzzer written in Go | ![](https://img.shields.io/github/stars/ffuf/ffuf) | ![](https://img.shields.io/github/languages/top/ffuf/ffuf) |",
   "Method": "FUZZ",
+  "Type": "Scanner"
+ },
+ "findom-xss": {
+  "Data": "| Scanner/XSS | [findom-xss](https://github.com/dwisiswant0/findom-xss) | A fast DOM based XSS vulnerability scanner with simplicity. | ![](https://img.shields.io/github/stars/dwisiswant0/findom-xss) | ![](https://img.shields.io/github/languages/top/dwisiswant0/findom-xss) |",
+  "Method": "XSS",
   "Type": "Scanner"
  },
  "findomain": {
@@ -294,6 +339,11 @@
   "Method": "SHOT",
   "Type": "Utility"
  },
+ "graphql-voyager": {
+  "Data": "| Discovery/GQL | [graphql-voyager](https://github.com/APIs-guru/graphql-voyager) | 🛰️ Represent any GraphQL API as an interactive graph | ![](https://img.shields.io/github/stars/APIs-guru/graphql-voyager) | ![](https://img.shields.io/github/languages/top/APIs-guru/graphql-voyager) |",
+  "Method": "GQL",
+  "Type": "Discovery"
+ },
  "gron": {
   "Data": "| Utility/JSON | [gron](https://github.com/tomnomnom/gron) | Make JSON greppable! | ![](https://img.shields.io/github/stars/tomnomnom/gron) | ![](https://img.shields.io/github/languages/top/tomnomnom/gron) |",
   "Method": "JSON",
@@ -319,6 +369,16 @@
   "Method": "TOM",
   "Type": "Fetch"
  },
+ "httpx": {
+  "Data": "| Fetch/HTTP | [httpx](https://github.com/projectdiscovery/httpx) | httpx is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads. | ![](https://img.shields.io/github/stars/projectdiscovery/httpx) | ![](https://img.shields.io/github/languages/top/projectdiscovery/httpx) |",
+  "Method": "HTTP",
+  "Type": "Fetch"
+ },
+ "inql": {
+  "Data": "| Discovery/GQL | [inql](https://github.com/doyensec/inql) | InQL - A Burp Extension for GraphQL Security Testing | ![](https://img.shields.io/github/stars/doyensec/inql) | ![](https://img.shields.io/github/languages/top/doyensec/inql) |",
+  "Method": "GQL",
+  "Type": "Discovery"
+ },
  "jaeles": {
   "Data": "| Army-Knife/SCAN | [jaeles](https://github.com/jaeles-project/jaeles) | The Swiss Army knife for automated Web Application Testing | ![](https://img.shields.io/github/stars/jaeles-project/jaeles) | ![](https://img.shields.io/github/languages/top/jaeles-project/jaeles) |",
   "Method": "JAELES",
@@ -337,6 +397,11 @@
  "masscan": {
   "Data": "| Discovery/PORT | [masscan](https://github.com/robertdavidgraham/masscan) | TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. | ![](https://img.shields.io/github/stars/robertdavidgraham/masscan) | ![](https://img.shields.io/github/languages/top/robertdavidgraham/masscan) |",
   "Method": "PORT",
+  "Type": "Discovery"
+ },
+ "medusa": {
+  "Data": "| Discovery/FUZZ | [medusa](https://github.com/riza/medusa) | Fastest recursive HTTP fuzzer, like a Ferrari. | ![](https://img.shields.io/github/stars/riza/medusa) | ![](https://img.shields.io/github/languages/top/riza/medusa) |",
+  "Method": "FUZZ",
   "Type": "Discovery"
  },
  "meg": {
@@ -364,6 +429,11 @@
   "Method": "PORT",
   "Type": "Discovery"
  },
+ "nuclei": {
+  "Data": "| Scanner/WVS | [nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use. | ![](https://img.shields.io/github/stars/projectdiscovery/nuclei) | ![](https://img.shields.io/github/languages/top/projectdiscovery/nuclei) |",
+  "Method": "WVS",
+  "Type": "Scanner"
+ },
  "oxml_xxe": {
   "Data": "| Utility/VULN | [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) | A tool for embedding XXE/XML exploits into different filetypes | ![](https://img.shields.io/github/stars/BuffaloWill/oxml_xxe) | ![](https://img.shields.io/github/languages/top/BuffaloWill/oxml_xxe) |",
   "Method": "VULN",
@@ -374,9 +444,19 @@
   "Method": "VULN",
   "Type": "Utility"
  },
+ "pet": {
+  "Data": "| Utility/SNIPPET | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go. | ![](https://img.shields.io/github/stars/knqyf263/pet) | ![](https://img.shields.io/github/languages/top/knqyf263/pet) |",
+  "Method": "SNIPPET",
+  "Type": "Utility"
+ },
  "postMessage-tracker": {
   "Data": "| Utility/VULN | [postMessage-tracker](https://github.com/fransr/postMessage-tracker) | A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon | ![](https://img.shields.io/github/stars/fransr/postMessage-tracker) | ![](https://img.shields.io/github/languages/top/fransr/postMessage-tracker) |",
   "Method": "VULN",
+  "Type": "Utility"
+ },
+ "pwncat": {
+  "Data": "| Utility/PENTEST | [pwncat](https://github.com/cytopia/pwncat) | pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and reverse shell, self-injecting shell and port forwarding magic - and its fully scriptable with Python (PSE) | ![](https://img.shields.io/github/stars/cytopia/pwncat) | ![](https://img.shields.io/github/languages/top/cytopia/pwncat) |",
+  "Method": "PENTEST",
   "Type": "Utility"
  },
  "qsreplace": {
@@ -404,6 +484,11 @@
   "Method": "DNS",
   "Type": "Discovery"
  },
+ "smuggler": {
+  "Data": "| Scanner/SMUGGLE | [smuggler](https://github.com/defparam/smuggler) | Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3 | ![](https://img.shields.io/github/stars/defparam/smuggler) | ![](https://img.shields.io/github/languages/top/defparam/smuggler) |",
+  "Method": "SMUGGLE",
+  "Type": "Scanner"
+ },
  "sqlmap": {
   "Data": "| Scanner/SQL | [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | ![](https://img.shields.io/github/stars/sqlmapproject/sqlmap) | ![](https://img.shields.io/github/languages/top/sqlmapproject/sqlmap) |",
   "Method": "SQL",
@@ -424,6 +509,11 @@
   "Method": "TKOV",
   "Type": "Discovery"
  },
+ "subs_all": {
+  "Data": "| Utility/WORD | [subs_all](https://github.com/emadshanab/subs_all) | Subdomain Enumeration Wordlist. 8956437 unique words. Updated. | ![](https://img.shields.io/github/stars/emadshanab/subs_all) | ![](https://img.shields.io/github/languages/top/emadshanab/subs_all) |",
+  "Method": "WORD",
+  "Type": "Utility"
+ },
  "template-generator": {
   "Data": "| Utility/TEMPLATE | [template-generator](https://github.com/fransr/template-generator) | A simple variable based template editor using handlebarjs+strapdownjs. The idea is to use variables in markdown based files to easily replace the variables with content. Data is saved temporarily in local storage. PHP is only needed to generate the list of files in the dropdown of templates. | ![](https://img.shields.io/github/stars/fransr/template-generator) | ![](https://img.shields.io/github/languages/top/fransr/template-generator) |",
   "Method": "TEMPLATE",
@@ -441,6 +531,11 @@
  },
  "unfurl": {
   "Data": "| Utility/URL | [unfurl](https://github.com/tomnomnom/unfurl) | Pull out bits of URLs provided on stdin | ![](https://img.shields.io/github/stars/tomnomnom/unfurl) | ![](https://img.shields.io/github/languages/top/tomnomnom/unfurl) |",
+  "Method": "URL",
+  "Type": "Utility"
+ },
+ "urlprobe": {
+  "Data": "| Utility/URL | [urlprobe](https://github.com/1ndianl33t/urlprobe) | Urls status code \u0026 content length checker | ![](https://img.shields.io/github/stars/1ndianl33t/urlprobe) | ![](https://img.shields.io/github/languages/top/1ndianl33t/urlprobe) |",
   "Method": "URL",
   "Type": "Utility"
  },
