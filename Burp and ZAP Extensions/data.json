@@ -1,12 +1,17 @@
 {
  "AuthMatrix": {
-  "Type": "Burp",
   "Data": "| Burp/AUTH | [AuthMatrix](https://github.com/SecurityInnovation/AuthMatrix) | AuthMatrix is a Burp Suite extension that provides a simple way to test authorization in web applications and web services. | ![](https://img.shields.io/github/stars/SecurityInnovation/AuthMatrix) | ![](https://img.shields.io/github/languages/top/SecurityInnovation/AuthMatrix) |",
-  "Method": "AUTH"
+  "Method": "AUTH",
+  "Type": "Burp"
  },
  "Autorize": {
   "Data": "| Burp/PASV | [Autorize](https://github.com/Quitten/Autorize) | Automatic authorization enforcement detection extension for burp suite written in Jython developed by Barak Tawily in order to ease application security people work and allow them perform an automatic authorization tests | ![](https://img.shields.io/github/stars/Quitten/Autorize) | ![](https://img.shields.io/github/languages/top/Quitten/Autorize) |",
   "Method": "PASV",
+  "Type": "Burp"
+ },
+ "BurpBounty": {
+  "Data": "| Burp/SCAN | [BurpBounty](https://github.com/wagiro/BurpBounty) | Burp Bounty (Scan Check Builder in BApp Store) is a extension of Burp Suite that allows you, in a quick and simple way, to improve the active and passive scanner by means of personalized rules through a very intuitive graphical interface. | ![](https://img.shields.io/github/stars/wagiro/BurpBounty) | ![](https://img.shields.io/github/languages/top/wagiro/BurpBounty) |",
+  "Method": "SCAN",
   "Type": "Burp"
  },
  "BurpJSLinkFinder": {
@@ -59,6 +64,11 @@
   "Method": "CODE",
   "Type": "Burp"
  },
+ "burp-piper": {
+  "Data": "| Burp/PIPE | [burp-piper](https://github.com/silentsignal/burp-piper) | Piper Burp Suite Extender plugin | ![](https://img.shields.io/github/stars/silentsignal/burp-piper) | ![](https://img.shields.io/github/languages/top/silentsignal/burp-piper) |",
+  "Method": "PIPE",
+  "Type": "Burp"
+ },
  "burp-retire-js": {
   "Data": "| All/PASV | [burp-retire-js](https://github.com/h3xstream/burp-retire-js) | Burp/ZAP/Maven extension that integrate Retire.js repository to find vulnerable Javascript libraries. | ![](https://img.shields.io/github/stars/h3xstream/burp-retire-js) | ![](https://img.shields.io/github/languages/top/h3xstream/burp-retire-js) |",
   "Method": "PASV",
@@ -103,6 +113,11 @@
   "Data": "| Burp/GQL | [inql](https://github.com/doyensec/inql) | InQL - A Burp Extension for GraphQL Security Testing | ![](https://img.shields.io/github/stars/doyensec/inql) | ![](https://img.shields.io/github/languages/top/doyensec/inql) |",
   "Method": "GQL",
   "Type": "Burp"
+ },
+ "owasp-zap-jwt-addon": {
+  "Type": "ZAP",
+  "Data": "| ZAP/JWT | [owasp-zap-jwt-addon](https://github.com/SasanLabs/owasp-zap-jwt-addon) | OWASP ZAP addon for finding vulnerabilities in JWT Implementations | ![](https://img.shields.io/github/stars/SasanLabs/owasp-zap-jwt-addon) | ![](https://img.shields.io/github/languages/top/SasanLabs/owasp-zap-jwt-addon) |",
+  "Method": "JWT"
  },
  "param-miner": {
   "Data": "| Burp/ACTIVE | [param-miner](https://github.com/PortSwigger/param-miner) | Parameter mining on Burpsuite | ![](https://img.shields.io/github/stars/PortSwigger/param-miner) | ![](https://img.shields.io/github/languages/top/PortSwigger/param-miner) |",
